@@ -4,10 +4,60 @@
   text-align: center;
 }
 
+body {
+  font-family: "Raleway", sans-serif;
+}
+
 .banner {
   border-bottom: 1px solid #33a8db;
   height: 95dvh;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #000000;
+  background-image:
+    url(../images/banner.png),
+    linear-gradient(to bottom, #000000 0%, #31a9dd58 50%, #000000 100%);
+}
+
+.banner-content {
+  width: 85dvh;
+}
+
+.logo {
+  background-color: #00000033;
+  border-radius: 50%;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+}
+
+.banner-content h1 {
+  font-size: 40px;
+  font-weight: 900;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+  background-image: linear-gradient(to bottom, #33a8db, #1472b7);
+  background-clip: text;
+  color: transparent;
+}
+
+.banner-content p {
+  color: #f5f5f5;
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0rem;
+}
+
+.banner-content button {
+  margin-top: 1rem;
+  padding: 1rem;
+  font-weight: 900;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #31a8dd;
+  background-color: transparent;
+  border-color: #31a8dd;
+  cursor: pointer;
 }
