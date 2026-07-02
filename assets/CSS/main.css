@@ -61,3 +61,29 @@ body {
   border-color: #31a8dd;
   cursor: pointer;
 }
+
+main {
+  background-color: #000000;
+}
+
+#course-content {
+  height: 85dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 24px;
+}
+
+#course-content h2 {
+  font-weight: 700;
+  color: #33a8db;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
+#course-content p {
+  color: #f5f5f5;
+}
