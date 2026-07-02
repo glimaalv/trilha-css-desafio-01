@@ -106,5 +106,22 @@ main {
 }
 
 #transform-world {
+  border-bottom: 1px solid #33a8db;
+  border-top: 1px solid #33a8db;
   background-image: url(../images/woman-code.png);
+  height: 50dvh;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+}
+
+#transform-world p {
+  color: #ffffff;
+  text-transform: lowercase;
+  font-weight: 900;
+  font-size: 2rem;
+  text-shadow: 3px 2px #33a8db;
+  text-align: left;
+  margin-left: 13%;
 }
