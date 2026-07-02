@@ -127,15 +127,31 @@ main {
 }
 
 #professional-challenges {
-  border-bottom: 1px solid #33a8db;
+  padding: 2rem;
+  height: 95dvh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #professional-challenges h2 {
   color: #33a8db;
   font-weight: 700;
+  text-transform: uppercase;
+  font-size: 2rem;
+  width: 95dvh;
+}
+
+#professional-challenges p {
+  color: #ffffff;
+  width: 65dvw;
+  margin-top: 2rem;
 }
 
 footer {
+  border-top: 1px solid #33a8db;
   background-color: #000000;
   background-image: linear-gradient(to top, #31a9dd3f 0%, #000000 50%);
   padding: 3rem;
